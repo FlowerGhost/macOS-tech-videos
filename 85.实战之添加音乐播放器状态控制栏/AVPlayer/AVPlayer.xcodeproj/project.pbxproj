@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04325487211DADC100845786 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04325486211DADC100845786 /* libc++.tbd */; };
+		04325490211DCDDB00845786 /* VideoURLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0432548F211DCDDB00845786 /* VideoURLModel.m */; };
+		0489DF102119E6360068F7C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0489DF0F2119E6360068F7C9 /* AppDelegate.m */; };
+		0489DF132119E6360068F7C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0489DF122119E6360068F7C9 /* ViewController.m */; };
+		0489DF152119E6370068F7C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0489DF142119E6370068F7C9 /* Assets.xcassets */; };
+		0489DF182119E6370068F7C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0489DF162119E6370068F7C9 /* Main.storyboard */; };
+		0489DF1B2119E6370068F7C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0489DF1A2119E6370068F7C9 /* main.m */; };
+		0489DF242119E71C0068F7C9 /* 阿里郎-隔壁泰山.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0489DF222119E71C0068F7C9 /* 阿里郎-隔壁泰山.mp3 */; };
+		0489DF252119E71C0068F7C9 /* 9277男生版.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0489DF232119E71C0068F7C9 /* 9277男生版.mp3 */; };
+		0489DF28211B05170068F7C9 /* SBTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0489DF27211B05170068F7C9 /* SBTool.m */; };
+		0489DF2B211B246F0068F7C9 /* WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0489DF2A211B246F0068F7C9 /* WindowController.m */; };
+		0489DF31211B36180068F7C9 /* DragAcceptView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0489DF30211B36180068F7C9 /* DragAcceptView.m */; };
+		0489DF4D211C755B0068F7C9 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0489DF4C211C755A0068F7C9 /* icon.icns */; };
+		6DBD9792AA01F597FF4884F7 /* libPods-AVPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5B780FEC4F9169D750F196 /* libPods-AVPlayer.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04325473211DAA6500845786 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04325486211DADC100845786 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		0432548E211DCDDB00845786 /* VideoURLModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoURLModel.h; sourceTree = "<group>"; };
+		0432548F211DCDDB00845786 /* VideoURLModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoURLModel.m; sourceTree = "<group>"; };
+		0489DF0B2119E6360068F7C9 /* AVPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0489DF0E2119E6360068F7C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0489DF0F2119E6360068F7C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0489DF112119E6360068F7C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0489DF122119E6360068F7C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0489DF142119E6370068F7C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0489DF172119E6370068F7C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0489DF192119E6370068F7C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0489DF1A2119E6370068F7C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0489DF1C2119E6370068F7C9 /* AVPlayer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AVPlayer.entitlements; sourceTree = "<group>"; };
+		0489DF222119E71C0068F7C9 /* 阿里郎-隔壁泰山.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "阿里郎-隔壁泰山.mp3"; sourceTree = "<group>"; };
+		0489DF232119E71C0068F7C9 /* 9277男生版.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "9277男生版.mp3"; sourceTree = "<group>"; };
+		0489DF26211B05170068F7C9 /* SBTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBTool.h; sourceTree = "<group>"; };
+		0489DF27211B05170068F7C9 /* SBTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBTool.m; sourceTree = "<group>"; };
+		0489DF29211B246F0068F7C9 /* WindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WindowController.h; sourceTree = "<group>"; };
+		0489DF2A211B246F0068F7C9 /* WindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WindowController.m; sourceTree = "<group>"; };
+		0489DF2F211B36180068F7C9 /* DragAcceptView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DragAcceptView.h; sourceTree = "<group>"; };
+		0489DF30211B36180068F7C9 /* DragAcceptView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragAcceptView.m; sourceTree = "<group>"; };
+		0489DF4C211C755A0068F7C9 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		0489DF4E211C80D70068F7C9 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = "/Volumes/500G/macOS开发从入门到精通/83.实战之音乐播放器数据持久化（Realm）/AVPlayer/AVPlayer/Realm.framework"; sourceTree = "<absolute>"; };
+		6D5B780FEC4F9169D750F196 /* libPods-AVPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AVPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		738C9469D60AB078D9EC7817 /* Pods-AVPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-AVPlayer/Pods-AVPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		D2AF1786F7CB3FB92B1B53E0 /* Pods-AVPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AVPlayer/Pods-AVPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0489DF082119E6360068F7C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04325487211DADC100845786 /* libc++.tbd in Frameworks */,
+				6DBD9792AA01F597FF4884F7 /* libPods-AVPlayer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0432546B211DA99300845786 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				0489DF4E211C80D70068F7C9 /* Realm.framework */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		04325485211DADC100845786 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04325486211DADC100845786 /* libc++.tbd */,
+				6D5B780FEC4F9169D750F196 /* libPods-AVPlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0489DF022119E6360068F7C9 = {
+			isa = PBXGroup;
+			children = (
+				0489DF0D2119E6360068F7C9 /* AVPlayer */,
+				0489DF0C2119E6360068F7C9 /* Products */,
+				0432546B211DA99300845786 /* Recovered References */,
+				04325485211DADC100845786 /* Frameworks */,
+				8DC3EFC39A4DA6ABE794F225 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		0489DF0C2119E6360068F7C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0489DF0B2119E6360068F7C9 /* AVPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0489DF0D2119E6360068F7C9 /* AVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				0489DF4C211C755A0068F7C9 /* icon.icns */,
+				0489DF232119E71C0068F7C9 /* 9277男生版.mp3 */,
+				0489DF222119E71C0068F7C9 /* 阿里郎-隔壁泰山.mp3 */,
+				0489DF0E2119E6360068F7C9 /* AppDelegate.h */,
+				0489DF0F2119E6360068F7C9 /* AppDelegate.m */,
+				0489DF29211B246F0068F7C9 /* WindowController.h */,
+				0489DF2A211B246F0068F7C9 /* WindowController.m */,
+				0489DF2F211B36180068F7C9 /* DragAcceptView.h */,
+				0489DF30211B36180068F7C9 /* DragAcceptView.m */,
+				0489DF112119E6360068F7C9 /* ViewController.h */,
+				0489DF122119E6360068F7C9 /* ViewController.m */,
+				0432548E211DCDDB00845786 /* VideoURLModel.h */,
+				0432548F211DCDDB00845786 /* VideoURLModel.m */,
+				0489DF26211B05170068F7C9 /* SBTool.h */,
+				0489DF27211B05170068F7C9 /* SBTool.m */,
+				0489DF142119E6370068F7C9 /* Assets.xcassets */,
+				0489DF162119E6370068F7C9 /* Main.storyboard */,
+				0489DF192119E6370068F7C9 /* Info.plist */,
+				0489DF1A2119E6370068F7C9 /* main.m */,
+				0489DF1C2119E6370068F7C9 /* AVPlayer.entitlements */,
+			);
+			path = AVPlayer;
+			sourceTree = "<group>";
+		};
+		8DC3EFC39A4DA6ABE794F225 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2AF1786F7CB3FB92B1B53E0 /* Pods-AVPlayer.debug.xcconfig */,
+				738C9469D60AB078D9EC7817 /* Pods-AVPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0489DF0A2119E6360068F7C9 /* AVPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0489DF1F2119E6370068F7C9 /* Build configuration list for PBXNativeTarget "AVPlayer" */;
+			buildPhases = (
+				1B36D144716CF4338E5FE911 /* [CP] Check Pods Manifest.lock */,
+				0489DF072119E6360068F7C9 /* Sources */,
+				0489DF082119E6360068F7C9 /* Frameworks */,
+				0489DF092119E6360068F7C9 /* Resources */,
+				04325473211DAA6500845786 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVPlayer;
+			productName = AVPlayer;
+			productReference = 0489DF0B2119E6360068F7C9 /* AVPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0489DF032119E6360068F7C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "石彪";
+				TargetAttributes = {
+					0489DF0A2119E6360068F7C9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 0;
+							};
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 0489DF062119E6360068F7C9 /* Build configuration list for PBXProject "AVPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0489DF022119E6360068F7C9;
+			productRefGroup = 0489DF0C2119E6360068F7C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0489DF0A2119E6360068F7C9 /* AVPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0489DF092119E6360068F7C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0489DF252119E71C0068F7C9 /* 9277男生版.mp3 in Resources */,
+				0489DF152119E6370068F7C9 /* Assets.xcassets in Resources */,
+				0489DF242119E71C0068F7C9 /* 阿里郎-隔壁泰山.mp3 in Resources */,
+				0489DF182119E6370068F7C9 /* Main.storyboard in Resources */,
+				0489DF4D211C755B0068F7C9 /* icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B36D144716CF4338E5FE911 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AVPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0489DF072119E6360068F7C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0489DF31211B36180068F7C9 /* DragAcceptView.m in Sources */,
+				0489DF2B211B246F0068F7C9 /* WindowController.m in Sources */,
+				0489DF132119E6360068F7C9 /* ViewController.m in Sources */,
+				0489DF1B2119E6370068F7C9 /* main.m in Sources */,
+				0489DF28211B05170068F7C9 /* SBTool.m in Sources */,
+				0489DF102119E6360068F7C9 /* AppDelegate.m in Sources */,
+				04325490211DCDDB00845786 /* VideoURLModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0489DF162119E6370068F7C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0489DF172119E6370068F7C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0489DF1D2119E6370068F7C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0489DF1E2119E6370068F7C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0489DF202119E6370068F7C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2AF1786F7CB3FB92B1B53E0 /* Pods-AVPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AVPlayer/AVPlayer.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = M54Y5FDG74;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AVPlayer",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AVPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sb.AVPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		0489DF212119E6370068F7C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 738C9469D60AB078D9EC7817 /* Pods-AVPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AVPlayer/AVPlayer.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = M54Y5FDG74;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AVPlayer",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AVPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sb.AVPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0489DF062119E6360068F7C9 /* Build configuration list for PBXProject "AVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0489DF1D2119E6370068F7C9 /* Debug */,
+				0489DF1E2119E6370068F7C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0489DF1F2119E6370068F7C9 /* Build configuration list for PBXNativeTarget "AVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0489DF202119E6370068F7C9 /* Debug */,
+				0489DF212119E6370068F7C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0489DF032119E6360068F7C9 /* Project object */;
+}
